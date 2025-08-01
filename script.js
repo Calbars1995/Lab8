@@ -4,7 +4,9 @@ let student = {
     enrolled: true,
     courses: ["JavaScript" , "WebProgramming" , "DatabaseDesign" , "Algorithms", ],
     studentInfo: function(){
-        console.log(`${student.name} is ${student.age} years old.`)
+        console.log(`${student.name} is ${student.age} years old. They are enrolled?: ${student.enrolled}.` +
+        `\nAnd they are attending courses: ${student.courses}`);
     }
 }
-student.studentInfo(); //just a test
+console.log(`The student's name is: ${student.name}, they are ${student.age} years old.`)
+student.studentInfo();
