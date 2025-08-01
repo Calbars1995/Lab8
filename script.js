@@ -56,3 +56,9 @@ console.log(`The First two Scores are: ${score1}, ${score2}`); //displaying scor
 console.log("\nSpread Operator:");
 let clonedStudent = { ...student, graduationYear: 2026 }; //cloning and adding in one line
 console.log(`Graduation: ${clonedStudent.graduationYear}`);
+
+//new courses
+console.log("\nNew Courses being added:");
+let newCourses = ["Math" , "English" , "History"];
+let mergedCourses = [ ...student.courses, ...newCourses];
+console.log(`Merged courses are: ${mergedCourses}`);
