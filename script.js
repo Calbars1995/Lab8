@@ -62,3 +62,12 @@ console.log("\nNew Courses being added:");
 let newCourses = ["Math" , "English" , "History"];
 let mergedCourses = [ ...student.courses, ...newCourses];
 console.log(`Merged courses are: ${mergedCourses}`);
+
+//Object Methods
+console.log("\nObject Methods");
+student.addCourse = function() {
+    student.courses.push("New_Course");
+}
+console.log("adding a new course, displaying list of courses:");
+student.addCourse();
+console.log(student.courses);
