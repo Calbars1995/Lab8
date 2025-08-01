@@ -1,3 +1,4 @@
+//Creating the object
 let student = {
     name: "Chris",
     age: 30,
@@ -8,5 +9,6 @@ let student = {
         `\nAnd they are attending courses: ${student.courses}`);
     }
 }
+//Displaying the object's properties, and calling the method
 console.log(`The student's name is: ${student.name}, they are ${student.age} years old.`)
 student.studentInfo();
