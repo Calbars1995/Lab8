@@ -36,3 +36,5 @@ console.log(`JS Enrolled: ${student.enrolled}. JSON Enrolled: ${studentJSON.enro
 console.log(`JS Courses: ${student.courses}.`);
 console.log(`JSON Courses: ${studentJSON.courses}.`);
 console.log(`UnJSON Courses: ${studentUnJSON.courses}.`);
+console.log("I noticed that JSON can't display in the log as simple as normal JS Object, need to convert first.");
+console.log("The JSON converted to JS Object displayed the same as before it was converted.");
