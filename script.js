@@ -3,7 +3,7 @@ let student = {
     name: "Chris",
     age: 30,
     enrolled: true,
-    courses: ["JavaScript" , "WebProgramming" , "DatabaseDesign" , "Algorithms", ],
+    courses: ["JavaScript" , "WebProgramming" , "DatabaseDesign" , "Algorithms", "OS"],
     studentInfo: function(){
         console.log(`${student.name} is ${student.age} years old. They are enrolled?: ${student.enrolled}.` +
         `\nAnd they are attending courses: ${student.courses}`);
@@ -41,3 +41,7 @@ console.log(`UnJSON Courses: ${studentUnJSON.courses}.`);
 console.log("\nWhat I noticed:")
 console.log("I noticed that JSON can't display in the log as simple as normal JS Object, need to convert first.");
 console.log("The JSON converted to JS Object displayed the same as before it was converted.");
+
+//Destructuring
+console.log("\nDestructuring");
+let [first, second, third, fourth, fifth] =student.courses;
