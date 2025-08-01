@@ -9,15 +9,19 @@ let student = {
         `\nAnd they are attending courses: ${student.courses}`);
     }
 }
+console.log("Creating Object:"); //making easier to read
+
 //Displaying the object's properties, and calling the method
 console.log(`The student's name is: ${student.name}, they are ${student.age} years old.`)
 student.studentInfo();
 
 //JSON time
+console.log("\nJSON:"); //again, making easier to read
 let studentJSON = JSON.stringify(student);
 console.log(studentJSON);
 
 //Back to JavaScript Object
+console.log("\nComing back to JavaScript Object:"); //easier to read
 let studentUnJSON = JSON.parse(studentJSON);
 console.log(`Name: ${studentUnJSON.name}, Age: ${studentUnJSON.age}, Enrolled: ${studentUnJSON.enrolled}` +
     `\nCourses: ${studentUnJSON.courses}.`
