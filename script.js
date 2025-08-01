@@ -26,3 +26,4 @@ let studentUnJSON = JSON.parse(studentJSON);
 console.log(`Name: ${studentUnJSON.name}, Age: ${studentUnJSON.age}, Enrolled: ${studentUnJSON.enrolled}` +
     `\nCourses: ${studentUnJSON.courses}.`
 )
+//studentUnJSON.studentInfo(); doesnt seemt to work, so maybe JSON can't contain methods, googled and no it cant
