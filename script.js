@@ -43,5 +43,11 @@ console.log("I noticed that JSON can't display in the log as simple as normal JS
 console.log("The JSON converted to JS Object displayed the same as before it was converted.");
 
 //Destructuring
-console.log("\nDestructuring");
-let [first, second, third, fourth, fifth] =student.courses;
+console.log("\nDestructuring:");
+let [nameDestruct] = student.name;
+let [first, second, third, fourth, fifth] = student.courses;
+
+//Scores Array
+let scores = [85, 92, 78, 90, 65, 39, 98];
+let [score1, score2] = scores;
+console.log(`The First two Scores are: ${score1}, ${score2}`); //displaying scores
