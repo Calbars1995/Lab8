@@ -51,3 +51,7 @@ let [first, second, third, fourth, fifth] = student.courses;
 let scores = [85, 92, 78, 90, 65, 39, 98];
 let [score1, score2] = scores;
 console.log(`The First two Scores are: ${score1}, ${score2}`); //displaying scores
+
+//Spread Operator
+console.log("\nSpread Operator:");
+let clonedStudent = { ...student };
