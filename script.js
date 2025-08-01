@@ -54,4 +54,5 @@ console.log(`The First two Scores are: ${score1}, ${score2}`); //displaying scor
 
 //Spread Operator
 console.log("\nSpread Operator:");
-let clonedStudent = { ...student };
+let clonedStudent = { ...student, graduationYear: 2026 }; //cloning and adding in one line
+console.log(`Graduation: ${clonedStudent.graduationYear}`);
