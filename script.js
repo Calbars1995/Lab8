@@ -78,4 +78,7 @@ student.countCourses = function() {
     return this.courses.length;
 }
 let courseCount = student.countCourses();
-console.log(`There are ${courseCount} courses in ${student.name}'s enrollment`)
+console.log(`There are ${courseCount} courses in ${student.name}'s enrollment`);
+
+//Done project
+console.log("Done the main part of the lab");
