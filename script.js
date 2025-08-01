@@ -12,3 +12,7 @@ let student = {
 //Displaying the object's properties, and calling the method
 console.log(`The student's name is: ${student.name}, they are ${student.age} years old.`)
 student.studentInfo();
+
+//JSON time
+let studentJSON = JSON.stringify(student);
+console.log(studentJSON);
