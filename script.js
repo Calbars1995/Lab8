@@ -16,3 +16,9 @@ student.studentInfo();
 //JSON time
 let studentJSON = JSON.stringify(student);
 console.log(studentJSON);
+
+//Back to JavaScript Object
+let studentUnJSON = JSON.parse(studentJSON);
+console.log(`Name: ${studentUnJSON.name}, Age: ${studentUnJSON.age}, Enrolled: ${studentUnJSON.enrolled}` +
+    `\nCourses: ${studentUnJSON.courses}.`
+)
