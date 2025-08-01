@@ -27,3 +27,12 @@ console.log(`Name: ${studentUnJSON.name}, Age: ${studentUnJSON.age}, Enrolled: $
     `\nCourses: ${studentUnJSON.courses}.`
 )
 //studentUnJSON.studentInfo(); doesnt seemt to work, so maybe JSON can't contain methods, googled and no it cant
+
+//Comparing
+console.log("\nComparing Time:");
+console.log(`JS Name: ${student.name}. JSON Name: ${studentJSON.name}. UnJSON Name: ${studentUnJSON.name}.`);
+console.log(`JS Age: ${student.age}. JSON Age: ${studentJSON.age}. UnJSON Age: ${studentUnJSON.age}.`);
+console.log(`JS Enrolled: ${student.enrolled}. JSON Enrolled: ${studentJSON.enrolled}. UnJSON Enrolled: ${studentUnJSON.enrolled}.`);
+console.log(`JS Courses: ${student.courses}.`);
+console.log(`JSON Courses: ${studentJSON.courses}.`);
+console.log(`UnJSON Courses: ${studentUnJSON.courses}.`);
