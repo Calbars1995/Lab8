@@ -82,3 +82,13 @@ console.log(`There are ${courseCount} courses in ${student.name}'s enrollment`);
 
 //Done project
 console.log("Done the main part of the lab");
+
+//Trying bonus
+console.log("\nBonus:");
+let bonusScores = [76, 56, 98, 87, 100, 45];
+//below, total is running total, thisNumber is the number at this index, and the 0 is to be the starting number of the reduce
+let totalOfScores = bonusScores.reduce((total, thisNumber) => total + thisNumber, 0);
+let averageScore = totalOfScores / bonusScores.length;
+console.log(`The Scores are: ${bonusScores}`);
+console.log(`The average is: ${averageScore}`);
+console.log("Done everything, including the bonus");
