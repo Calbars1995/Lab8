@@ -71,3 +71,11 @@ student.addCourse = function() {
 console.log("adding a new course, displaying list of courses:");
 student.addCourse();
 console.log(student.courses);
+
+//Counting courses
+console.log("\nCounting courses:");
+student.countCourses = function() {
+    return this.courses.length;
+}
+let courseCount = student.countCourses();
+console.log(`There are ${courseCount} courses in ${student.name}'s enrollment`)
